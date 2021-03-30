@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Szállítási cím módosítása</h2>
+    <br>
+    <hr>
+    <form action="#" method="post" name="szallitas">
+        <table>
+            <tr>
+                <th><label for="name">Név <strong>*</strong></label></th>
+                <th colspan="2"><label for="phone">Telefonszám <strong>*</strong></label></th>
+            </tr>
+            <tr>
+                <td><input type="text" name="name" id="name" required></hd>
+                <td><select name="phone" id="phone" required>
+                        <option value="36">36</option>
+                        <option value="other">...</option>
+                        <input type="number" name="number" id="number" required>
+                    </select></td>
+            </tr>
+            <tr>
+                <th><label for="postcode">Irányítószám <strong>*</strong></label></th>
+                <th colspan="2"><label for="city">Város <strong>*</strong></label></th>
+            </tr>
+            <tr>
+                <td><input type="number" name="postcode" id="postcode"> </td>
+                <td colspan="2"><select name="city" id="city" required>
+                        <option value="Debrecen">Debrecen</option>
+                        <option value="Budapest">Budapest</option>
+                        <option value="Nyiregyhaza">Nyíregyháza</option>
+                        <option value="Miskolc">Miskolc</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <th><label for="country">Ország <strong>*</strong></label></th>
+                <th colspan="2"><label for="address">Cím <strong>*</strong></label></th>
+            </tr>
+            <tr>
+                <td><select name="country" id="country" required>
+                        <option value="Hungary">Magyarország</option>
+                        <option value="Poland">Lengyelország</option>
+                        <option value="Austria">Ausztria</option>
+                        <option value="England">Anglia</option>
+                    </select></td>
+                <td colspan="2"><input type="text" name="address" id="address"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="submit" value="Mentés" id="save">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="reset" value="Alaphelyzetbe állít" id="restart">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

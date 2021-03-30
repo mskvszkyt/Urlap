@@ -1,0 +1,39 @@
+strong {
+    color: red;
+}
+
+#phone {
+height: 21px;
+width: 100px;
+float: left;
+}
+
+#number {
+    width: 200px;
+}
+
+td {
+    text-align: center;
+    width: 400px;
+
+}   
+
+th {
+    text-align: left;
+}
+
+#save {
+    width: 100%;
+    background-color: lawngreen;
+    color: white;
+}
+
+#restart {
+    width: 100%;
+    background-color: lawngreen;
+    color: white;
+}
+
+#country {
+    width: 200px;
+}
